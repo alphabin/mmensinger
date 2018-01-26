@@ -1,1 +1,1 @@
-Welcome to Matthew Mensinger's CST336 Home Page
+Welcome to Matthew Mensinger's CST336 Home Page!
