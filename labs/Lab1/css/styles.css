@@ -1,6 +1,7 @@
 body {
     background-color:black;
-    color:white;
+    color:gray;
+    text-align: center;
 }
 
 header, main, nav, footer {
@@ -15,18 +16,29 @@ nav a { /*links within "nav" container */
     color: white; /* by default, links are blue*/
 }
 
-nav a:hover { /*pseudo class*/
+nav a:hover, #current { /*pseudo class*/
     border-bottom: 2px orange solid;
     font-size: 2em;
     transition: .9s; /* transition effect */
 }
 
-#me, #welcomeText {
+#profilePicture, #welcomeText {
     float:left;
+    
 }
+
 
 #welcomeText {
     text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:200px;
+    font-size: 1.3em;
+}
+
+#profilePicture {
+    padding-left: 350px;
 }
 
 footer {
@@ -63,4 +75,10 @@ ul {
 
 .hobby {
     color: yellow;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
 }
