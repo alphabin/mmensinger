@@ -1,0 +1,94 @@
+hr {
+    width: 75%;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+    font-size: 3em;
+}
+header, nav, main, footer {
+    text-align: center;
+   
+} 
+
+nav a {
+    padding: 18px;
+    padding-bottom: 4px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+nav a:hover, #current {
+    border-bottom: 3px #d87f1a solid;
+    font-size: 1.8em;
+    transition: .9s;
+}
+
+footer {
+    clear: left;
+}
+
+#homeBody {
+    background-color: #4a79c4;
+}
+
+#homeMessage {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+}
+
+#cppBody {
+    background-color: #75528e;
+}
+
+#cppImage {
+    padding-left: 350px;
+    padding-right: 10px;
+    padding-top: 30px
+}
+
+#cppMessage, #sqlMessage {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width:300px;
+    font-size: 1.2em;
+    
+}
+
+#cppMessage, #cppImage, #sqlMessage, #sqlImage {
+    float: left;
+}
+
+#JavaBody {
+    background-color: #3e995c;
+}
+
+#javaMessage {
+   text-align: left;
+    padding-left: 325px;
+    padding-bottom: 30px;
+    width:300px;
+    font-size: 1.2em;
+}
+
+#javaMessage, #javaImage {
+    float: left;
+}
+
+#javaImage {
+    padding-top: 40px;
+}
+
+#SQLBody {
+    background-color: #b2527d;
+}
+
+#sqlImage {
+    padding-left: 225px;
+    padding-top: 30px;
+}
