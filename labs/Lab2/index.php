@@ -27,16 +27,19 @@
             
         </div>
        
-
+        
 
     </body>
-    <br> <br> <br>
+    <br> 
     <footer>
         CST 336 Internet Programming. 2018&copy; Mensinger <br />
             <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
             It is used for academic purposes only.
              <figure id="csumb">
-                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" />
+                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" /> <img src="img/buddy_verified.png" alt="Buddy Verified Badge" />
             </figure>
+            <figure>
+                
+        </figure>
     </footer>
 </html>
