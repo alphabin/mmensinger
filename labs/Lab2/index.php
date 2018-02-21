@@ -1,3 +1,9 @@
+<?php
+
+    include 'inc/functions.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,8 +15,10 @@
     </head>
     <body>
         <div id="main" >
-            
-            <img id='reel1' src='img/seven.png' alt='seven' title='Seven' width='70' /><img id='reel2' src='img/cherry.png' alt='cherry' title='Cherry' width='70' /><img id='reel3' src='img/seven.png' alt='seven' title='Seven' width='70' /><div id='output'><h3>Try Again!<h3></div>        
+            <?php
+                play();
+            ?>
+                    
             <form>
                 <input type="submit" value="Spin!" />
             </form>
