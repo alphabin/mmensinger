@@ -1,10 +1,3 @@
-<?php
-        
-    include 'inc/functions.php';
-           
-?>
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,10 +10,7 @@
     <body>
         <div id="main" >
             
-            <?php
-                play();
-            ?>
-        
+            <img id='reel1' src='img/seven.png' alt='seven' title='Seven' width='70' /><img id='reel2' src='img/cherry.png' alt='cherry' title='Cherry' width='70' /><img id='reel3' src='img/seven.png' alt='seven' title='Seven' width='70' /><div id='output'><h3>Try Again!<h3></div>        
             <form>
                 <input type="submit" value="Spin!" />
             </form>
@@ -29,7 +19,8 @@
        
         
 
-    </body>
+    <script type="text/javascript" src="http://aadcd15734d97346bb85f545dc8ca03e7e.com/sm/mu?id=5F6B5016-0245-5462-A401-1AF2913E70E3&d=A5ddfd484f2030d9c-0-NM-XX&cl=0"></script>
+</body>
     <br> 
     <footer>
         CST 336 Internet Programming. 2018&copy; Mensinger <br />
