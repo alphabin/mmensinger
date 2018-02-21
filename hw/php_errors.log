@@ -1,0 +1,5 @@
+[21-Feb-2018 07:22:31 UTC] PHP Warning:  Missing argument 1 for fillArrays(), called in /home/ubuntu/workspace/mmensinger/hw/hw2/inc/functions.php on line 45 and defined in /home/ubuntu/workspace/mmensinger/hw/hw2/inc/functions.php on line 6
+[21-Feb-2018 07:22:31 UTC] PHP Stack trace:
+[21-Feb-2018 07:22:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/hw/hw2/index.php:0
+[21-Feb-2018 07:22:31 UTC] PHP   2. rollDice() /home/ubuntu/workspace/mmensinger/hw/hw2/index.php:22
+[21-Feb-2018 07:22:31 UTC] PHP   3. fillArrays() /home/ubuntu/workspace/mmensinger/hw/hw2/inc/functions.php:45
