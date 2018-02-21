@@ -31,12 +31,6 @@ body {
     background-color: #49f482;
 }
 
-#button {
-   position: absolute;
-   padding-top: 20px;
-   font-size: 0.8em;
-   margin: 0 auto;
-}
 
 footer {
     position: relative;
