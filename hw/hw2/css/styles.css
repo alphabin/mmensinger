@@ -34,6 +34,8 @@ body {
 #button {
    position: absolute;
    padding-top: 20px;
+   font-size: 0.8em;
+   margin: 0 auto;
 }
 
 footer {
