@@ -78,6 +78,8 @@
             echo $player2Total;
             echo "</br>";
             
+            
+            
             displayWinner($player1Total, $player2Total);
         }
 

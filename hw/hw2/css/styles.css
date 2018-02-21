@@ -1,17 +1,47 @@
-header, body {
+header{
     
+    background-color: white;
+    border-style: double;
+    border-width: 20px;
     text-align: center;
     margin: 0 auto;
 }
 
 
+h1, #game {
+    background-color: white;
+}
+
 body {
     
+    position: relative;
+    background-image:url("../img/felt.jpg");
+    text-align: center;
     font-size: 1.2em;
-    
+}
+
+
+#game {
+    border-style: dashed;
+    border-color: #15602e;
+    border-width: 10px;
+    font-size: 2.0em;
+    margin: 0 auto;
+    width: 500px;
+    background-color: #49f482;
+}
+
+#button {
+   position: absolute;
+   padding-top: 20px;
 }
 
 footer {
-    
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    background-color:white;
+    width: 400px;
+    padding-top: 30px;
     font-size: 12px;
 }

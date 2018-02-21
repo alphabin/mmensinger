@@ -16,12 +16,20 @@
     <header><h1> Dice Game Simulation </h1></header>
     
     <body>
-
-        <?php
-            rollDice();
-        ?>
+        <div id="game">
+            <?php
+                rollDice();
+            ?>
+        </div>
+       
 
     </body>
+    
+    <div id="button">
+        <form>
+                <input type="submit" value="Roll the Dice" />
+        </form>
+    </div>
     
     <footer>
         
