@@ -14,3 +14,18 @@
          margin: 0 auto;   
          width: 700px;
     }
+    
+    #radioButtons {
+        background-color: white;
+        color: black;
+    }
+    
+    #dropDown {
+        
+        background-color: white;
+    }
+    
+    input {
+        font-size: 1.2em;
+    }
+   
