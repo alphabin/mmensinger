@@ -87,13 +87,13 @@
                 
                 <input type="radio" name="layout" value="vertical" id="vlayout" <?=($_GET['layout']=="vertical")?"checked":""?>><label for="vlayout"> Vertical </label> 
                 
-                </div>
+            </div>
             
             <div id="dropDown">
                 <select name="category">
                 <option value="" > Select One </option>
-                <option  <?=checkCategory('Otter')?>>  Otter </option>
-                <option  <?=checkCategory('Panda')?>>  Panda </option>
+                <option  <?=checkCategory('Dog')?>>  Dog </option>
+                <option  <?=checkCategory('Cat')?>>  Cat </option>
                 <option  <?=checkCategory('Penguin')?>>  Penguin </option>
                 <option  <?=checkCategory('Turtle')?>>  Turtle </option>
                 

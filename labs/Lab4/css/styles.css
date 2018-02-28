@@ -18,11 +18,12 @@
     #radioButtons {
         background-color: white;
         color: black;
+        width: 50px;
     }
     
     #dropDown {
         
-        background-color: white;
+        
     }
     
     input {
