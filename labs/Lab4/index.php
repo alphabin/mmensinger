@@ -86,9 +86,9 @@
                     }
                 ?>
                 
-                ><label for="hlayout"> Horizontal </label> 
+                ><label for="hlayout">  Horizontal </label> 
                 
-                <input type="radio" name="layout" value=" vertical" id="vlayout" <?=($_GET['layout']=="vertical")?"checked":""?>><label for="vlayout"> Vertical </label> 
+                <input type="radio" name="layout" value=" vertical" id="vlayout" <?=($_GET['layout']=="vertical")?"checked":""?>><label for="vlayout">  Vertical </label> 
                 
             </div>
             
