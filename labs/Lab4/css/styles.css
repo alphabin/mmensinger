@@ -19,14 +19,17 @@
         background-color: white;
         color: black;
         width: 80px;
+        margin: 0 auto;
     }
     
     #dropDown {
         padding: 10px;
-        
+        background-color: white;
     }
     
     input {
         font-size: 1.2em;
+        border-radius: 10px;
+        background-color: white;
     }
    
