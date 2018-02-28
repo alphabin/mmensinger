@@ -19,7 +19,8 @@
     #radioButtons {
         background-color: white;
         color: black;
-        width: 80px;
+        width: 120px;
+        padding-top: 10px;
         margin: 0 auto;
     }
     
@@ -34,3 +35,6 @@
         background-color: white;
     }
    
+   h3 {
+       background-color: white;
+   }
