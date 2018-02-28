@@ -2,7 +2,7 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:red;
         font-size: 1.2em;
     }
     
@@ -37,4 +37,5 @@
    
    h3 {
        background-color: white;
+       width: 100px;
    }
