@@ -3,12 +3,14 @@
 //print_r($_GET);//displaying all the content submitted in the form using the GET method
 
     $backgroundImage = "img/sea.jpg";
-
+    
+     
+    
      if(isset($_GET['keyword'])) { //If form was submitted
        
        include 'api/pixabayAPI.php';
        
-       echo "<h3>You searched for " . $_GET['keyword'] . "</h3>";
+       echo "<h3>You searched for: " . $_GET['keyword'] . "</h3>";
        
        $orientation = "horizontal";
        $keyword = $_GET['keyword'];
@@ -27,6 +29,7 @@
        
        
        $backgroundImage = $imageURLs[array_rand($imageURLs)];
+       
        
     }
     
