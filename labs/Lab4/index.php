@@ -5,7 +5,10 @@
     $backgroundImage = "img/sea.jpg";
     
      
-    
+     if(isset($_GET['keyword']) && $_GET['keyword'] == "" && empty($_GET['category'])) {
+         
+         echo "You must type a keyword or select a category";
+     }
      if(isset($_GET['keyword'])) { //If form was submitted
        
        include 'api/pixabayAPI.php';
@@ -97,6 +100,7 @@
                 <option value="" > Select One </option>
                 <option  <?=checkCategory('Dog')?>>  Dog </option>
                 <option  <?=checkCategory('Cat')?>>  Cat </option>
+                <option  <?=checkCategory('Otter')?>>  Otter </option>
                 <option  <?=checkCategory('Penguin')?>>  Penguin </option>
                 <option  <?=checkCategory('Turtle')?>>  Turtle </option>
                 
