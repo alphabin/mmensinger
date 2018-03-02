@@ -123,9 +123,7 @@
         
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleControls" data-to-slide
-            </ol>
+            
             <div class="carousel-item active">
               <img class="d-block w-100" src="<?=$imageURLs[0]?>" alt="First slide">
             </div>
