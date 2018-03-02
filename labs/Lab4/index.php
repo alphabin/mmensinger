@@ -9,6 +9,7 @@
          
          echo "You must type a keyword or select a category";
      }
+     
      if(isset($_GET['keyword'])) { //If form was submitted
        
        include 'api/pixabayAPI.php';
@@ -29,6 +30,7 @@
        }
        
        $imageURLs = getImageURLs($keyword, $orientation);
+       
        
        
        $backgroundImage = $imageURLs[array_rand($imageURLs)];
@@ -121,6 +123,9 @@
         
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-to-slide
+            </ol>
             <div class="carousel-item active">
               <img class="d-block w-100" src="<?=$imageURLs[0]?>" alt="First slide">
             </div>
