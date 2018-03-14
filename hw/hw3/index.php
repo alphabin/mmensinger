@@ -16,6 +16,7 @@
         
         <h3> This quiz will be able to offer a recommedation as to where to play your next round of golf based on the information that is given below.</h3>
         
+        <hr>
         <br/> <br/>
         
         <div id="Results">
@@ -116,7 +117,7 @@
                 
                 <input type="submit" value="Submit Information" name="submitButton" />
                 
-                
+                <input type="reset" value="Reset" />
             </div>
             
         </form>
@@ -124,7 +125,7 @@
         
     </body>
     
-    
+    <br/><hr>
     <footer>
         
          CST 336 Internet Programming. 2018&copy; Mensinger <br />
