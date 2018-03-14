@@ -1,0 +1,8 @@
+[13-Mar-2018 22:32:32 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mmensinger/hw/hw3/index.php on line 43
+[14-Mar-2018 00:04:32 UTC] PHP Warning:  Missing argument 2 for displayCourse(), called in /home/ubuntu/workspace/mmensinger/hw/hw3/index.php on line 26 and defined in /home/ubuntu/workspace/mmensinger/hw/hw3/functions.php on line 10
+[14-Mar-2018 00:04:32 UTC] PHP Stack trace:
+[14-Mar-2018 00:04:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/hw/hw3/index.php:0
+[14-Mar-2018 00:04:32 UTC] PHP   2. displayCourse() /home/ubuntu/workspace/mmensinger/hw/hw3/index.php:26
+[14-Mar-2018 00:08:29 UTC] PHP Fatal error:  Call to undefined function checkCondition() in /home/ubuntu/workspace/mmensinger/hw/hw3/index.php on line 85
+[14-Mar-2018 00:08:29 UTC] PHP Stack trace:
+[14-Mar-2018 00:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/hw/hw3/index.php:0

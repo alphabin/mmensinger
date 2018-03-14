@@ -1,1 +1,45 @@
 [26-Feb-2018 23:15:38 UTC] PHP Parse error:  syntax error, unexpected 'keyword' (T_STRING), expecting ']' in /home/ubuntu/workspace/mmensinger/labs/Lab4/index.php on line 87
+[12-Mar-2018 22:20:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 34
+[12-Mar-2018 22:20:53 UTC] PHP Stack trace:
+[12-Mar-2018 22:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[12-Mar-2018 22:20:53 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:90
+[12-Mar-2018 22:20:53 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 34
+[12-Mar-2018 22:20:53 UTC] PHP Stack trace:
+[12-Mar-2018 22:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[12-Mar-2018 22:20:53 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:90
+[12-Mar-2018 22:20:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(37): PDOStatement->execute()
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(90): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 37
+[12-Mar-2018 22:36:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName Like '%book%'' at line 1' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(105): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 52
+[12-Mar-2018 22:39:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName Like '%book%'' at line 1' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(105): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 52
+[12-Mar-2018 22:42:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName Like ''' at line 1' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 56
+[12-Mar-2018 22:44:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName Like '%book%'' at line 1' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(58): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 58
+[12-Mar-2018 22:46:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName Like '%book%'' at line 1' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(58): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 58
