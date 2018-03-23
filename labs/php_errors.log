@@ -43,3 +43,126 @@ Stack trace:
 #1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(111): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 58
+[14-Mar-2018 22:02:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(58): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 58
+[14-Mar-2018 22:07:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(62): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(115): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 62
+[14-Mar-2018 22:07:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(62): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(115): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 62
+[14-Mar-2018 22:07:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(62): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(115): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 62
+[14-Mar-2018 22:10:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(67): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(120): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 67
+[14-Mar-2018 22:14:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:82
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(82): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 82
+[14-Mar-2018 22:18:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:82
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(82): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 82
+[14-Mar-2018 22:25:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[14-Mar-2018 22:25:37 UTC] PHP Stack trace:
+[14-Mar-2018 22:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[14-Mar-2018 22:26:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 84
+[23-Mar-2018 00:15:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php on line 18
+[23-Mar-2018 00:15:56 UTC] PHP Stack trace:
+[23-Mar-2018 00:15:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:0
+[23-Mar-2018 00:15:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:18
+[23-Mar-2018 00:16:49 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php on line 18
+[23-Mar-2018 00:16:49 UTC] PHP Stack trace:
+[23-Mar-2018 00:16:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:0
+[23-Mar-2018 00:16:49 UTC] PHP   2. array_push() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:18
+[23-Mar-2018 00:17:05 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php on line 18
+[23-Mar-2018 00:17:05 UTC] PHP Stack trace:
+[23-Mar-2018 00:17:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:0
+[23-Mar-2018 00:17:05 UTC] PHP   2. array_push() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:18
+[23-Mar-2018 00:18:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 41
+[23-Mar-2018 00:18:55 UTC] PHP Stack trace:
+[23-Mar-2018 00:18:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:18:55 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 41
+[23-Mar-2018 00:19:38 UTC] PHP Stack trace:
+[23-Mar-2018 00:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:19:38 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:19:46 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php on line 8
+[23-Mar-2018 00:19:46 UTC] PHP Stack trace:
+[23-Mar-2018 00:19:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:0
+[23-Mar-2018 00:19:46 UTC] PHP   2. array_push() /home/ubuntu/workspace/mmensinger/labs/Lab5/index.php:8
+[23-Mar-2018 00:19:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 41
+[23-Mar-2018 00:19:50 UTC] PHP Stack trace:
+[23-Mar-2018 00:19:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:19:50 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:20:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 41
+[23-Mar-2018 00:20:07 UTC] PHP Stack trace:
+[23-Mar-2018 00:20:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:20:07 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:21:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 41
+[23-Mar-2018 00:21:55 UTC] PHP Stack trace:
+[23-Mar-2018 00:21:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:21:55 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:25:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 41
+[23-Mar-2018 00:25:05 UTC] PHP Stack trace:
+[23-Mar-2018 00:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:25:05 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 47
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 48
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 49
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 50
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 47
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 48
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'image' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 49
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[23-Mar-2018 00:34:22 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/mmensinger/labs/Lab5/functions.php on line 50
+[23-Mar-2018 00:34:22 UTC] PHP Stack trace:
+[23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
+[23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
