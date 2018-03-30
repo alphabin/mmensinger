@@ -166,3 +166,42 @@ Stack trace:
 [23-Mar-2018 00:34:22 UTC] PHP Stack trace:
 [23-Mar-2018 00:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:0
 [23-Mar-2018 00:34:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/mmensinger/labs/Lab5/scart.php:38
+[29-Mar-2018 20:54:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[29-Mar-2018 20:54:58 UTC] PHP Stack trace:
+[29-Mar-2018 20:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 20:55:22 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 4
+[29-Mar-2018 20:55:22 UTC] PHP Stack trace:
+[29-Mar-2018 20:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 20:55:22 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 4
+[29-Mar-2018 20:55:22 UTC] PHP Stack trace:
+[29-Mar-2018 20:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 20:55:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[29-Mar-2018 20:55:22 UTC] PHP Stack trace:
+[29-Mar-2018 20:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 20:55:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[29-Mar-2018 20:55:30 UTC] PHP Stack trace:
+[29-Mar-2018 20:55:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 20:56:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[29-Mar-2018 20:56:58 UTC] PHP Stack trace:
+[29-Mar-2018 20:56:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 20:58:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[29-Mar-2018 20:58:06 UTC] PHP Stack trace:
+[29-Mar-2018 20:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 21:00:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[29-Mar-2018 21:00:18 UTC] PHP Stack trace:
+[29-Mar-2018 21:00:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[29-Mar-2018 21:02:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php on line 5
+[29-Mar-2018 21:02:38 UTC] PHP Stack trace:
+[29-Mar-2018 21:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php:0
+[30-Mar-2018 19:21:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[30-Mar-2018 19:21:06 UTC] PHP Stack trace:
+[30-Mar-2018 19:21:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[30-Mar-2018 19:22:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[30-Mar-2018 19:22:50 UTC] PHP Stack trace:
+[30-Mar-2018 19:22:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[30-Mar-2018 19:24:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[30-Mar-2018 19:24:43 UTC] PHP Stack trace:
+[30-Mar-2018 19:24:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[30-Mar-2018 19:30:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[30-Mar-2018 19:30:00 UTC] PHP Stack trace:
+[30-Mar-2018 19:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0

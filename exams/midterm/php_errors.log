@@ -1,0 +1,69 @@
+[28-Mar-2018 02:54:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 9
+[28-Mar-2018 02:54:17 UTC] PHP Stack trace:
+[28-Mar-2018 02:54:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:54:17 UTC] PHP   2. letters() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:34
+[28-Mar-2018 02:56:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 9
+[28-Mar-2018 02:56:01 UTC] PHP Stack trace:
+[28-Mar-2018 02:56:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:56:01 UTC] PHP   2. letters() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:34
+[28-Mar-2018 02:56:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 9
+[28-Mar-2018 02:56:16 UTC] PHP Stack trace:
+[28-Mar-2018 02:56:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:56:16 UTC] PHP   2. letters() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:34
+[28-Mar-2018 02:57:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 9
+[28-Mar-2018 02:57:20 UTC] PHP Stack trace:
+[28-Mar-2018 02:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:57:20 UTC] PHP   2. lettersList() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:34
+[28-Mar-2018 02:58:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 9
+[28-Mar-2018 02:58:07 UTC] PHP Stack trace:
+[28-Mar-2018 02:58:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:58:07 UTC] PHP   2. lettersList() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:34
+[28-Mar-2018 02:58:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 9
+[28-Mar-2018 02:58:09 UTC] PHP Stack trace:
+[28-Mar-2018 02:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:58:09 UTC] PHP   2. lettersList() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:34
+[28-Mar-2018 02:58:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 10
+[28-Mar-2018 02:58:18 UTC] PHP Stack trace:
+[28-Mar-2018 02:58:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:58:18 UTC] PHP   2. lettersList() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:35
+[28-Mar-2018 02:58:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 10
+[28-Mar-2018 02:58:21 UTC] PHP Stack trace:
+[28-Mar-2018 02:58:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:58:21 UTC] PHP   2. lettersList() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:35
+[28-Mar-2018 02:58:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 10
+[28-Mar-2018 02:58:50 UTC] PHP Stack trace:
+[28-Mar-2018 02:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 02:58:50 UTC] PHP   2. lettersList() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:35
+[28-Mar-2018 03:28:14 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php on line 31
+[28-Mar-2018 03:28:14 UTC] PHP Stack trace:
+[28-Mar-2018 03:28:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:0
+[28-Mar-2018 03:28:14 UTC] PHP   2. displayTable() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:107
+[28-Mar-2018 03:28:14 UTC] PHP   3. getLetterTable() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:52
+[28-Mar-2018 03:28:14 UTC] PHP   4. array_rand() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program1.php:31
+[28-Mar-2018 03:52:11 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php on line 3
+[28-Mar-2018 03:52:11 UTC] PHP Stack trace:
+[28-Mar-2018 03:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php:0
+[28-Mar-2018 03:52:11 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php on line 3
+[28-Mar-2018 03:52:11 UTC] PHP Stack trace:
+[28-Mar-2018 03:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php:0
+[28-Mar-2018 03:52:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php on line 4
+[28-Mar-2018 03:52:11 UTC] PHP Stack trace:
+[28-Mar-2018 03:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php:0
+[28-Mar-2018 03:52:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_34a8e5c8c0df63e'' in /home/ubuntu/workspace/mmensinger/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php(4): getDatabaseConnection('heroku_34a8e5c8...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/dbConnection.php on line 19
+[28-Mar-2018 03:52:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/mmensinger/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php(4): getDatabaseConnection('midterm')
+#2 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/dbConnection.php on line 19
+[28-Mar-2018 03:59:07 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/mmensinger/dbConnection.php on line 26
+[28-Mar-2018 03:59:07 UTC] PHP Stack trace:
+[28-Mar-2018 03:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php:0
+[28-Mar-2018 03:59:07 UTC] PHP   2. include() /home/ubuntu/workspace/mmensinger/exams/midterm/practice/practice_program2.php:3
+[28-Mar-2018 22:36:06 UTC] PHP Parse error:  syntax error, unexpected '$index' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/mmensinger/exams/midterm/test/program1.php on line 35
+[28-Mar-2018 22:53:36 UTC] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/mmensinger/exams/midterm/test/program1.php on line 25
