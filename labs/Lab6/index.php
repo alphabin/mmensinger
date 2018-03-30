@@ -103,7 +103,8 @@
     </head>
     <body>
         
-        <h1> OtterMart Product Search </h1>
+        <div>
+            <h1> OtterMart Product Search </h1>
         
         <form>
             
@@ -127,12 +128,15 @@
             <input type="radio" name="orderBy" value="price"/> Price <br />
             <input type="radio" name="orderBy" value="name"/> Name
             
-            <br />
+            <br /><br/>
             <input type="submit" value="Search" name="searchForm" />
             
         </form>
         
         <br />
+            
+        </div>
+        
         <hr>
         
         <?= displaySearchResults() ?>
