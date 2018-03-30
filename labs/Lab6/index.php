@@ -3,7 +3,7 @@
     
     include 'dbConnection.php';
     
-    $conn = getDatabaseConnnection("ottermart");
+    $conn = getDatabaseConnection("ottermart");
     
     function displayCategories() {
         global $conn;

@@ -2,11 +2,12 @@
 
     include 'dbConnection.php';
     
-    $conn = getDatabaseConnnection("ottermart");
+    $conn = getDatabaseConnection("ottermart");
     
-    $productId = $_GET['proudctId'];
+    $productId = $_GET['productId'];
     
-    $sql = "SELECT * FROM om_product
+    $sql = "SELECT * 
+            FROM om_product
             NATURAL JOIN om_purchase
             WHERE productId = :pId";
             
@@ -18,12 +19,13 @@
     $stmt->execute($np);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
-    //print_r($records);
     
     echo $records[0]['productName'] . "<br/>";
     echo "<img src='" . $records[0]['productImage'] . "' width='200'/><br/>";
     
+    
     foreach ($records as $record) {
+        
         
         echo "Purchase Date: " . $record["purchaseDate"] . "<br/>";
         echo "Unit Price: " . $record["unitPrice"] . "<br/>";

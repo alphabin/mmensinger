@@ -205,3 +205,19 @@ Stack trace:
 [30-Mar-2018 19:30:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
 [30-Mar-2018 19:30:00 UTC] PHP Stack trace:
 [30-Mar-2018 19:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[30-Mar-2018 19:36:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php on line 6
+[30-Mar-2018 19:36:42 UTC] PHP Stack trace:
+[30-Mar-2018 19:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/index.php:0
+[30-Mar-2018 19:38:21 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnnection() in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php on line 5
+[30-Mar-2018 19:38:21 UTC] PHP Stack trace:
+[30-Mar-2018 19:38:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php:0
+[30-Mar-2018 19:57:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php on line 19
+[30-Mar-2018 19:59:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php on line 19
