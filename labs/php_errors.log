@@ -221,3 +221,38 @@ Stack trace:
 #0 /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php(19): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/mmensinger/labs/Lab6/purchaseHistory.php on line 19
+[02-Apr-2018 21:30:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 16
+[02-Apr-2018 21:30:03 UTC] PHP Stack trace:
+[02-Apr-2018 21:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:30:03 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:44
+[02-Apr-2018 21:32:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 16
+[02-Apr-2018 21:32:43 UTC] PHP Stack trace:
+[02-Apr-2018 21:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:32:43 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:44
+[02-Apr-2018 21:34:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 16
+[02-Apr-2018 21:34:56 UTC] PHP Stack trace:
+[02-Apr-2018 21:34:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:34:56 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:44
+[02-Apr-2018 21:38:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 16
+[02-Apr-2018 21:38:33 UTC] PHP Stack trace:
+[02-Apr-2018 21:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:38:33 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:44
+[02-Apr-2018 21:40:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 16
+[02-Apr-2018 21:40:56 UTC] PHP Stack trace:
+[02-Apr-2018 21:40:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:40:56 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:44
+[02-Apr-2018 21:45:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 15
+[02-Apr-2018 21:45:42 UTC] PHP Stack trace:
+[02-Apr-2018 21:45:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:45:42 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:43
+[02-Apr-2018 21:46:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 21
+[02-Apr-2018 21:46:24 UTC] PHP Stack trace:
+[02-Apr-2018 21:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:46:24 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:45
+[02-Apr-2018 21:47:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php on line 21
+[02-Apr-2018 21:47:12 UTC] PHP Stack trace:
+[02-Apr-2018 21:47:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:0
+[02-Apr-2018 21:47:12 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/mmensinger/labs/Lab7/admin.php:45
+[04-Apr-2018 21:57:59 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/mmensinger/labs/Lab7/updateProduct.php on line 48
+[04-Apr-2018 21:57:59 UTC] PHP Stack trace:
+[04-Apr-2018 21:57:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab7/updateProduct.php:0
