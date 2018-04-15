@@ -46,6 +46,9 @@ if (isset($_GET['submitProduct'])) {
 <html>
     <head>
         <title> Add a product </title>
+        <style>
+            @import url("css/style.css");
+        </style>
     </head>
     <body>
         <h1> Add a product</h1>

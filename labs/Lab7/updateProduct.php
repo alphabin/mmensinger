@@ -45,7 +45,7 @@
         
         $sql = "UPDATE om_product 
                 SET productName = :productName,
-                description = :productDescription,
+                productDescription = :productDescription,
                 productImage = :productImage,
                 price = :price,
                 catId = :catId
@@ -62,6 +62,7 @@
         $statement = $dbConn->prepare($sql);
         $statement->execute($np);
     
+        header("Location: admin.php");
     }
     
     
@@ -72,20 +73,23 @@
 <html>
     <head>
         <title> Update Product </title>
+        <style>
+            @import url("css/style.css");
+        </style>
     </head>
     <body>
         
         <h1> Update Product</h1>
         <form>
             <input type="hidden" name="productId" value="<?=$product['productId']?>"/>
-            Product name: <input type="text" value= <?=$product['productName']?> name="productName"><br>
-            Description: <textarea name="description" cols = 50 rows = 4> <?=$product['productDescription']?> </textarea><br>
-            Price: <input type="text" value= <?=$product['price']?> name="price"><br>
+            Product name: <input type="text" value= <?=$product['productName']?> name="productName"><br><br/>
+            Description: <textarea name="description" cols = 50 rows = 4> <?=$product['productDescription']?> </textarea><br><br/>
+            Price: <input type="text" value= <?=$product['price']?> name="price"><br><br/>
             Category: <select name="catId">
                 <option value="">Select One</option>
                 <?php getCategories($product['catId']); ?>
-            </select> <br />
-            Set Image Url: <input type = "text" value= <?=$product['productImage']?> name = "productImage"><br>
+            </select> <br /><br/>
+            Set Image Url: <input type = "text" value= <?=$product['productImage']?> name = "productImage"><br><br/>
             <input type="submit" name="updateProduct" value="Update Product">
             
         </form>

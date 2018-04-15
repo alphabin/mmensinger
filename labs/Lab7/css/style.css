@@ -1,0 +1,42 @@
+body {
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3864aa;
+    color: white;
+}
+
+form {
+                
+    display: inline;
+}
+
+#products {
+    
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    left: 600px;
+    
+}
+
+#addButton {
+    
+    background-color:#5bba61;
+    color: white;
+    cursor: pointer;
+}
+
+#updateButton {
+    
+    background-color: #e29f5d;
+    color: white;
+    cursor: pointer;
+}
+
+#removeButton {
+    
+    background-color: #d86a6a;
+    color: white;
+    cursor: pointer;
+}
