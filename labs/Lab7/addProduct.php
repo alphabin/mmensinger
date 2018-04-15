@@ -40,6 +40,7 @@ if (isset($_GET['submitProduct'])) {
     
     $statement = $conn->prepare($sql);
     $statement->execute($namedParameters);
+    header("Location: admin.php");
 }
 ?>
 <!DOCTYPE html>
