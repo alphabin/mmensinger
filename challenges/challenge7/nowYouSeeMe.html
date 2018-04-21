@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meow you see me.. </title>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        
+        var text = "";
+        var image = "img/";
+        
+        
+       
+        
+        $(document).ready( function(){
+        
+            window.onload = mainDisplay();
+            
+            function mainDisplay() {
+            
+            text = "Now you see me...";
+            image +="now_you_see_me.png";
+           
+              var x = document.createElement("IMG");
+                 x.setAttribute("src", image);
+                 $("#image").html(document.body.appendChild(x));
+                 
+                  $("#text").html("Now you see me...");
+                  
+                 var btn = document.createElement("BUTTON");
+                var t = document.createTextNode("Do Magic!!");
+                btn.appendChild(t);
+                document.body.appendChild(btn);
+    
+        }
+        
+            $("button").click( function() {
+                
+                text = "Now you dont...";
+            image +="now_you_see_me.png";
+           
+              var x = document.createElement("IMG");
+                 x.setAttribute("src", image);
+                 $("#image").html(document.body.appendChild(x));
+                 
+                  $("#text").html("Now you see me...");
+                  
+                 var btn = document.createElement("BUTTON");
+                var t = document.createTextNode("Do Magic!!");
+                btn.appendChild(t);
+                document.body.appendChild(btn);
+                
+                
+            })
+            
+        });
+    </script>
+    
+    </head>
+     
+     
+    <body>
+        
+        
+        <div id = "image" >
+           
+        </div>
+        <div id = "text">
+            
+        </div>
+        
+    </body>
+</html>
