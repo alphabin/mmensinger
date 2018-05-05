@@ -21,6 +21,7 @@ if(!isset($_SESSION['cart'])) {
     </head>
     <body class="home">
          <h1><strong><img src= "img/controller3.png"> GameStahp <img src= "img/controller3.png"></h1></strong>
+         
         <div class="box">
             <div class="form">
             <h3>Home</h3>

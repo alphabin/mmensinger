@@ -1,0 +1,146 @@
+[30-Apr-2018 20:15:26 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 31
+[30-Apr-2018 20:15:26 UTC] PHP Stack trace:
+[30-Apr-2018 20:15:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[02-May-2018 19:24:53 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 5
+[02-May-2018 19:24:53 UTC] PHP Stack trace:
+[02-May-2018 19:24:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[02-May-2018 19:24:53 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 5
+[02-May-2018 19:24:53 UTC] PHP Stack trace:
+[02-May-2018 19:24:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[02-May-2018 19:24:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 13
+[02-May-2018 19:24:53 UTC] PHP Stack trace:
+[02-May-2018 19:24:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[02-May-2018 19:24:53 UTC] PHP   2. getAllEquipment() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:71
+[04-May-2018 21:11:14 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/finalProject/admin.php on line 10
+[04-May-2018 21:11:14 UTC] PHP Stack trace:
+[04-May-2018 21:11:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/admin.php:0
+[04-May-2018 21:11:14 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/finalProject/admin.php on line 10
+[04-May-2018 21:11:14 UTC] PHP Stack trace:
+[04-May-2018 21:11:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/admin.php:0
+[04-May-2018 21:11:14 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/finalProject/admin.php on line 11
+[04-May-2018 21:11:14 UTC] PHP Stack trace:
+[04-May-2018 21:11:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/admin.php:0
+[04-May-2018 21:23:42 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:23:42 UTC] PHP Stack trace:
+[04-May-2018 21:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:23:42 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:23:42 UTC] PHP Stack trace:
+[04-May-2018 21:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:23:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 7
+[04-May-2018 21:23:42 UTC] PHP Stack trace:
+[04-May-2018 21:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:06 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:24:06 UTC] PHP Stack trace:
+[04-May-2018 21:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:06 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:24:06 UTC] PHP Stack trace:
+[04-May-2018 21:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 7
+[04-May-2018 21:24:06 UTC] PHP Stack trace:
+[04-May-2018 21:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:13 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:24:13 UTC] PHP Stack trace:
+[04-May-2018 21:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:13 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:24:13 UTC] PHP Stack trace:
+[04-May-2018 21:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 7
+[04-May-2018 21:24:13 UTC] PHP Stack trace:
+[04-May-2018 21:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:18 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:24:18 UTC] PHP Stack trace:
+[04-May-2018 21:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:18 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 5
+[04-May-2018 21:24:18 UTC] PHP Stack trace:
+[04-May-2018 21:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[04-May-2018 21:24:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/finalProject/login.php on line 7
+[04-May-2018 21:24:18 UTC] PHP Stack trace:
+[04-May-2018 21:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/login.php:0
+[05-May-2018 19:32:38 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/mmensinger/finalProject/addProduct.php on line 23
+[05-May-2018 19:33:07 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/mmensinger/finalProject/addProduct.php on line 23
+[05-May-2018 19:33:11 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/mmensinger/finalProject/addProduct.php on line 23
+[05-May-2018 20:54:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 20:57:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 20:58:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 20:58:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 21:00:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''equipment' WHERE e_id = /' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 21:01:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 21:02:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 21:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 1' in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/deleteProduct.php on line 10
+[05-May-2018 21:21:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:21:03 UTC] PHP Stack trace:
+[05-May-2018 21:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:21:03 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:21:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:21:52 UTC] PHP Stack trace:
+[05-May-2018 21:21:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:21:52 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:23:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:23:13 UTC] PHP Stack trace:
+[05-May-2018 21:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:23:13 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:25:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:25:17 UTC] PHP Stack trace:
+[05-May-2018 21:25:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:25:17 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:26:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:26:28 UTC] PHP Stack trace:
+[05-May-2018 21:26:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:26:28 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:28:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:28:27 UTC] PHP Stack trace:
+[05-May-2018 21:28:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:28:27 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:29:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 29
+[05-May-2018 21:29:50 UTC] PHP Stack trace:
+[05-May-2018 21:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:0
+[05-May-2018 21:29:50 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:92
+[05-May-2018 21:32:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php:66
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php(66): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/updateProduct.php on line 66
+[05-May-2018 22:09:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 12
+[05-May-2018 22:09:57 UTC] PHP Stack trace:
+[05-May-2018 22:09:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[05-May-2018 22:09:57 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:97
+[05-May-2018 22:10:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 12
+[05-May-2018 22:10:41 UTC] PHP Stack trace:
+[05-May-2018 22:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[05-May-2018 22:10:41 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:97
+[05-May-2018 22:11:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/mmensinger/finalProject/equipment.php on line 12
+[05-May-2018 22:11:04 UTC] PHP Stack trace:
+[05-May-2018 22:11:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:0
+[05-May-2018 22:11:04 UTC] PHP   2. getCategories() /home/ubuntu/workspace/mmensinger/finalProject/equipment.php:97

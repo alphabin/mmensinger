@@ -1,0 +1,21 @@
+body {
+    
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.container-fluid{
+    
+    background-color: green;
+    
+}
+
+
+
+#flag {
+    position: relative;
+    width:30px;
+    height: 30px;
+}
+

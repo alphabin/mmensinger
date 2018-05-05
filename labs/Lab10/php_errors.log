@@ -1,0 +1,28 @@
+[30-Apr-2018 21:44:01 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/index.php on line 4
+[30-Apr-2018 21:48:48 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:50:14 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:50:14 UTC] PHP Stack trace:
+[30-Apr-2018 21:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:50:14 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:50:14 UTC] PHP Stack trace:
+[30-Apr-2018 21:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:53:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 11
+[30-Apr-2018 21:53:48 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:53:48 UTC] PHP Stack trace:
+[30-Apr-2018 21:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:53:48 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:53:48 UTC] PHP Stack trace:
+[30-Apr-2018 21:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:53:48 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 7
+[30-Apr-2018 21:53:48 UTC] PHP Stack trace:
+[30-Apr-2018 21:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:56:23 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:56:23 UTC] PHP Stack trace:
+[30-Apr-2018 21:56:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:56:23 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 5
+[30-Apr-2018 21:56:23 UTC] PHP Stack trace:
+[30-Apr-2018 21:56:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:56:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php on line 13
+[30-Apr-2018 21:56:23 UTC] PHP Stack trace:
+[30-Apr-2018 21:56:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:0
+[30-Apr-2018 21:56:23 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/mmensinger/labs/Lab10/pets/pets.php:27

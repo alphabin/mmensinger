@@ -2,34 +2,25 @@
     
     session_start();
 
-    include '../../dbConnection.php';
+    include '../dbConnection.php';
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("final_project");
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     
-    //The following sql does not prevent SQL injection
     $sql = "SELECT *
-            FROM om_admin
-            WHERE username = '$username'
-            AND password = '$password'";
-    
-    //The following sql prevents sql injection by avoiding using single quotes
-    $sql = "SELECT *
-            FROM om_admin
+            FROM login
             WHERE username = :username
             AND password = :password";
     
     $np = array();
     $np[":username"] = $username;
     $np[":password"] = $password;
-            
+    
     $stmt = $conn->prepare($sql);
     $stmt->execute($np);
     $record = $stmt->fetch(PDO::FETCH_ASSOC);  //expecting one single record
-    
-    //print_r($record);
     
     if(empty($record)) {
         
@@ -38,7 +29,6 @@
     }
     else {
         
-        //echo $record['firstName'] . " " . $record['lastName'];
         $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
         header("Location:admin.php");
     }
