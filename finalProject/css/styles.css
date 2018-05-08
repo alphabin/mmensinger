@@ -2,7 +2,41 @@ body {
     
     margin: 0 auto;
     text-align: center;
+    background: url(../img/bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+div {
     
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#homeTxt {
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: #75d681;
+    width:700px;
+   
+    
+}
+
+#admin {
+    
+    display: inline;
+    float: left;
+   
+    
+}
+
+#products {
+    
+    text-align: left;
+    color: white;
+    position: relative;
+    left: 120px;
 }
 
 .container-fluid{
@@ -11,7 +45,10 @@ body {
     
 }
 
-
+.card {
+    
+    width:400px;
+}
 
 #flag {
     position: relative;

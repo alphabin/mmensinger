@@ -24,7 +24,7 @@
         
         <!--Add main menu here -->
        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: green;">
-          <a class="navbar-brand">GolfLand</a>
+          <a class="navbar-brand" style="color: white">GolfLand</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -43,8 +43,9 @@
           </div>
         </nav>
    
-        
-        <h1><img id="flag" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/golf_flag.png"> GolfLand <img id="flag" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/golf_flag.png"></h1><br><br>
+       <div id="homeTxt">
+         
+         <h1><img id="flag" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/golf_flag.png"> GolfLand <img id="flag" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/golf_flag.png"></h1><br><br>
         
         <p>Welcome to GolfLand!</p>
         <p>Here you are able to lookup the latest golf equipment from the top brands and find the right clubs for you.</p>
@@ -52,6 +53,26 @@
         <p>Enjoy!</p><br>
         
         
+        <form action='equipment.php' >
+            <input type='submit' value='Shop Now!' class='btn btn-warning'>
+        </form>
+        
+        <br><br>
+       </div>
+        
+        <br><br><br>
+        
+        
         
     </body>
+    
+    <footer>
+            <hr>
+            CST 336 Internet Programming. 2018&copy; Mensinger <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+             <figure id="csumb">
+                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" />
+            </figure>
+        </footer>
 </html>

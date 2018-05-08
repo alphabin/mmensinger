@@ -79,6 +79,7 @@
     </head>
     <body>
         
+        
         <h1> Update Product</h1>
         <form>
             <input type="hidden" name="productId" value="<?=$product['productId']?>"/>

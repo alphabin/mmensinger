@@ -52,7 +52,7 @@ if (isset($_GET['submitProduct'])) {
     <head>
         <title> Add Product </title>
         <style>
-            @import url("css/style.css");
+            @import url("css/styles.css");
         </style>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -70,7 +70,7 @@ if (isset($_GET['submitProduct'])) {
         
         <!--Add main menu here -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: green;">
-          <a class="navbar-brand">GolfLand</a>
+          <a class="navbar-brand" style="color: white">GolfLand</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -90,21 +90,39 @@ if (isset($_GET['submitProduct'])) {
           </div>
         </nav>
         
-        <h1> Add Product</h1>
+        <div id="homeTxt">
+            
+            <h1> Add Product</h1>
         <form>
-            Product name: <input type="text" name="productName"><br>
-            Product brand: <input type="text" name="productBrand"><br>
-            Product type: <select name="productType">
+            <strong>Product name:</strong> <input type="text" name="productName"><br><br>
+            <strong>Product brand:</strong> <input type="text" name="productBrand"><br><br>
+            <strong>Product type:</strong> <select name="productType">
                 <option value="">Select One</option>
                 <?php getCategories(); ?>
-            </select> <br />
-            Price: <input type="text" name="productPrice"><br>
+            </select> <br /><br>
+            <strong>Price:</strong> <input type="text" name="productPrice"><br><br>
             
-            Set Image Url: <input type = "text" name = "productImage"><br>
+           <strong> Set Image Url:</strong> <input type = "text" name = "productImage"><br><br>
             
-            Buy Now Url: <input type = "text" name = "productUrl"><br>
-            <input type="submit" name="submitProduct" value="Add Product">
+            <strong>Buy Now Url:</strong> <input type = "text" name = "productUrl"><br><br>
+            <input type="submit" class="btn btn-warning" name="submitProduct" value="Add Product">
             
         </form>
+        
+        <br>
+            
+        </div>
+        
     </body>
+    
+    <footer>
+            <hr>
+            CST 336 Internet Programming. 2018&copy; Mensinger <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+             <figure id="csumb">
+                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" />
+            </figure>
+        </footer>
+        
 </html>

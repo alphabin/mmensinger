@@ -46,13 +46,80 @@ function displayAllProducts(){
             }
             
         </script>
+        
+        <script>
+            
+            $(document).ready(function() {
+                
+                $("#countProducts").click(function() {
+                    
+                    $.ajax({
+                        
+                        type: "GET",
+                        url: "api/getProductCount.php",
+                        data: {},
+                        success: function(data){
+                            
+                            alert("Total count of products: " + JSON.parse(data).total);
+                        }
+                        
+                    });//ajax
+                    
+                    
+                    
+                }); //click count
+                
+                $("#avgPrice").click(function() {
+                    
+                    $.ajax({
+                        
+                        type: "GET",
+                        url: "api/getAvgPrice.php",
+                        data: {},
+                        success: function(data){
+                            
+                            alert("Average price of products: $" + JSON.parse(data).average);
+                        }
+
+                        
+                    });//ajax
+                    
+                }); //click average
+                
+                $("#type").click(function() {
+                    
+                    $.ajax({
+                        
+                        type: "GET",
+                        url: "api/getTotalType.php",
+                        data: {},
+                        success: function(data){
+                            
+                            
+                            
+                            alert("Type         " + "Total \n" +
+                                JSON.parse(data)[0].e_type + "          " + JSON.parse(data)[0].total + "\n" + 
+                                JSON.parse(data)[1].e_type + "            " + JSON.parse(data)[1].total + "\n" +
+                                JSON.parse(data)[2].e_type + "          " + JSON.parse(data)[2].total + "\n" +
+                                JSON.parse(data)[3].e_type + "       " + JSON.parse(data)[3].total + "\n");
+                                
+                        }
+
+                        
+                    });//ajax
+                    
+                }); //click total by type
+                
+            }); //document ready
+        
+        </script>
     
     </head>
     <body>
 
         <!--Add main menu here -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: green;">
-          <a class="navbar-brand">GolfLand</a>
+          <a class="navbar-brand" style="color: white">GolfLand</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -72,29 +139,48 @@ function displayAllProducts(){
           </div>
         </nav>
 
+        <div id="homeTxt">
+            
+            <h1> Admin Main Page </h1>
         
-        <h1> Admin Main Page </h1>
+        <br />
         
         <h3> Welcome <?=$_SESSION['adminName']?>! </h3>
         
-        <br /><br />
+        <br />
+        
+        <button id="countProducts">
+            Product Count
+        </button>
+        <button id="avgPrice">
+            Average Price
+        </button>
+       
+        <button id="type">
+            Total Products by Type
+        </button>
+        
+        <br><br>
+        
         <strong> Products: </strong> <br><br />
         
         <div id="products">
             <?php $records=displayAllProducts();
             foreach($records as $record) {
                 
-                echo "<form  action='updateProduct.php' >";
+                echo "<form  id='admin' action='updateProduct.php' >";
                 echo "<input type='hidden' name='e_id' value= " . $record['e_id'] . " />";
-                echo "<input id='updateButton' type='submit' value='Update'>";
+                echo "<input id='updateButton' type='submit' value='Update' class='btn btn-warning'>";
                 echo "</form> &nbsp";
                 
-                echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
+                echo "&nbsp";
+                
+                echo "<form id='admin' action='deleteProduct.php' onsubmit='return confirmDelete()'>";
                 echo "<input type='hidden' name='e_id' value= " . $record['e_id'] . " />";
-                echo "<input  id='removeButton' type='submit' value='Remove'>";
+                echo "<input  id='removeButton' type='submit' value='Remove' class='btn btn-danger'>";
                 echo "</form> &nbsp";
                 
-                echo $record['e_brand'] . " " . $record['e_name'] . " " . $record['e_type'];
+                echo "<strong> " . $record['e_brand'] . " " . $record['e_name'] . " " . $record['e_type'] . "</strong>";
                 echo '<br><br>';
                 
                 
@@ -104,8 +190,21 @@ function displayAllProducts(){
         ?>
         </div>
         
+        </div>
+        
+        
         
         
 
     </body>
+    
+    <footer>
+            <hr>
+            CST 336 Internet Programming. 2018&copy; Mensinger <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+             <figure id="csumb">
+                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" />
+            </figure>
+        </footer>
 </html>

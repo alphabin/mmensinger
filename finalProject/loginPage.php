@@ -4,7 +4,7 @@
     <head>
         <title> Admin Login </title>
         <style>
-            @import url("css/style.css");
+            @import url("css/styles.css");
         </style>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -21,8 +21,8 @@
     <body>
 
         <!--Add main menu here -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand">GolfLand</a>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: green;">
+          <a class="navbar-brand" style="color: white">GolfLand</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +41,9 @@
           </div>
         </nav>
         
-        <h1> OtterMart - Admin Login</h1>
+        <div id="homeTxt">
+          
+          <h1> GolfLand - Admin Login</h1>
         
          <?php
                 
@@ -58,7 +60,21 @@
             <input type="submit" name="submitForm" value="Login"/>
             
         </form>
+        </div>
+        
         
        
     </body>
+    
+    <br><br><br>
+    <footer>
+            <hr>
+            CST 336 Internet Programming. 2018&copy; Mensinger <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+             <figure id="csumb">
+                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" />
+            </figure>
+        </footer>
+        
 </html>

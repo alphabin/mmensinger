@@ -6,9 +6,9 @@
     
     $productId = $_GET['id'];
     
-    $sql = "SELECT *
+    $sql = "SELECT ROUND(AVG(e_price),2) as average
             FROM equipment
-            WHERE id = :productId";
+            ";
     
     $stmt = $dbConn->prepare($sql);
     $stmt->execute(array(":productId" => $productId));

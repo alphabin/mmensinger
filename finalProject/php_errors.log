@@ -138,3 +138,176 @@ Stack trace:
 #0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductInfo.php(14): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductInfo.php on line 14
+[07-May-2018 23:18:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:18:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:18:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:18:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[07-May-2018 23:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 17:01:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 17:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 17:01:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 17:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 18:07:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:06 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:17 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:17 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:01:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/mmensinger/finalProject/api/getProductCount.php on line 14
+[08-May-2018 21:05:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION final_project.AVERAGE does not exist' in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php on line 14
+[08-May-2018 21:05:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION final_project.AVERAGE does not exist' in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php on line 14
+[08-May-2018 21:05:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION final_project.AVERAGE does not exist' in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php on line 14
+[08-May-2018 21:05:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION final_project.AVERAGE does not exist' in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php on line 14
+[08-May-2018 21:05:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION final_project.AVERAGE does not exist' in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php on line 14
+[08-May-2018 21:05:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION final_project.AVERAGE does not exist' in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mmensinger/finalProject/api/getAvgPrice.php on line 14

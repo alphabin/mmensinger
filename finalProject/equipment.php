@@ -67,7 +67,7 @@
                 <a class="nav-link" href="index.php">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="equipment.php">Equipment <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="equipment.php" >Equipment <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="loginPage.php">Log In</a>
@@ -76,7 +76,9 @@
           </div>
         </nav>
             
-            <h1> Equipment </h1>
+            <div id="homeTxt">
+                
+                <h1> Equipment </h1>
             
                 <h3>Search by:</h3>
                 
@@ -99,13 +101,16 @@
                     </select>
                     <br/><br/>
                     
-                    <input type="radio" name="order" value=" ASC"><strong>Asc</strong>
-                    <input type="radio" name="order" value=" DESC"><strong>Desc</strong>
+                    <strong>Order by:</strong>
+                    <input type="radio" name="order" value=" ASC">Ascending 
+                    <input type="radio" name="order" value=" DESC">Descending 
                     <br/><br/>
                     
                     <input type="submit" value="Search" name="submit"><br><br>
                 </form>
                 
+            </div>
+            
                 <?php
                     
                       $sql = "SELECT * FROM equipment WHERE 1";
@@ -147,32 +152,58 @@
                         $sql .= " ORDER BY e_name";
                     }
                     
+                   $counter = 0;
                     
                     $equipment = getAllEquipment($sql);
                     
+                    
+                    echo "<table";
+                    
                     foreach($equipment as $item) {
                         
+                        if($counter == 0) {
+                            echo "<tr>";
+                        }
                         
-                        echo "<div class='card text-white bg-success' style='width: 25rem;'>";
-                        echo "<img class='card-img-top' src='" . $item['e_image'] . "' alt='Card image cap'>";
+                        echo "<td>";
+                        echo "<div class='card text-white bg-success' >";
+                        echo "<img class='card-img-top' src='" . $item['e_image'] . "' alt='Card image cap' style='width: 398px; height: 300px;'>";
                         echo "<div class='card-body style=background-color:green'>";
                         echo "<h4 class='card-title'>" . $item['e_brand'] . " " . $item['e_name'] . "</h4>";
                         echo "<p class='card-text'>Type: " . $item['e_type'] . "</p>";
                         echo "<p class='card-text'>Price: $" . $item['e_price'] . "</p>";
-                        echo "<a href='" . $item['e_buyNow'] . "' class='btn btn-primary'>Buy Now</a>";
+                        echo "<a href='" . $item['e_buyNow'] . "' class='btn btn-warning'>Buy Now</a>";
                         echo "</div>";
+                        echo "</div>";
+                        echo "</td>";
+                        
+                        $counter++;
+                        
+                        if($counter == 3 ) {
+                            echo "</tr>";
+                            $counter = 0;
+                        }
+                        
                         
                         
                     }
                     
-                
+                    echo "</table>";
                 ?>
                 
-                
-                
-                
+                  
 
 
 
     </body>
+    
+    <footer>
+            <hr>
+            CST 336 Internet Programming. 2018&copy; Mensinger <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+             <figure id="csumb">
+                <img src="img/csumb_logo.jpg" alt="California State University Monterey Bay logo" />
+            </figure>
+        </footer>
 </html>
